@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.hero {
+    color: rgba(181, 224, 118, 0.97);
+    background-image: url('./img/hero_image.png');
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    font-size: 2.0rem;
+    background-size: cover;
+    padding: 5rem;
+    
+}
+
+.hero span {
+font-size: 3rem;
+}
+
+.blackBoxSection {
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    padding: 40px 0px;
+    margin: 3rem 0px;
+    border-radius: 1rem;
+    text-align: center;
+
+}
+
+.card {
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+.card p {
+    padding: 1rem;
+}
+.web {
+    margin: 0px 20px;
+}
+.web img {
+    height: 10rem;  
+    width: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+  
+}
+.app {
+    margin: 0px 20px;
+}
+.app img {
+    height: 10rem;
+    width: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+.ux {
+    margin: 0px 20px;
+}
+.ux img {
+    height: 10rem;
+    width: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+.item {
+    box-shadow: 0px 0px 10px blueviolet;
+    min-height: 26rem;
+}
+
+.bottomSection {
+    display: flex;
+    margin: 0px 80px;
+}
+
+.contact {
+    background-color: darkgreen;
+    margin: 5rem;
+    padding: 1em;
+    height: 20vh;
+    width: 30vw;
+    border-radius: 1rem;
+    color: white;
+}
+
+.about {
+    color: white;
+    background-color: brown;
+    margin: 5rem;
+    padding: 1em;
+    height: 20vh;
+    width: 30vw;
+    border-radius: 1rem;
+}
+@media (max-width: 786px) {
+    .hero {
+        min-height: 50vh;
+    }
+            
+    .card {
+        flex-direction: column;
+    }
+
+    .bottomSection {
+        flex-direction: column;
+        margin: 0%;
+        padding: 0%;
+}
